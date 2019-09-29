@@ -104,3 +104,5 @@ MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD')
 MYSQL_DB = os.getenv('MYSQL_DB')
 MYSQL_TABLE = os.getenv('MYSQL_TABLE')
 MYSQL_UPSERT = os.getenv('MYSQL_UPSERT') not in (None, 'False', 'false', '0')
+
+LOG_LEVEL = 'INFO'
